@@ -1,0 +1,148 @@
+body{
+    background: rgb(170, 151, 255);
+}
+.container{
+    width: 960px;
+    min-height: 10px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    border-radius: 17px;
+    padding: 10px;
+    margin-top: 14px;
+}
+.header{
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+}
+.title_block{
+    width: 70%;
+    height: 100%;
+    border: 2px solid rgb(255, 255, 255);
+}
+.header-text{
+    padding-left: 0px;
+}
+.translate{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    text-align: right;
+}
+select {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.navigation{
+    width: 960px;
+    margin: 0 auto;
+}
+.website-navigation-text{
+    display: flex;
+    padding-left: 20px;
+}
+.website-navigation-text a{
+    text-decoration: none;
+    color: rgb(9, 2, 88);
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(189, 174, 255);
+    margin-bottom: 10px;
+}
+.website-navigation-text a:hover {
+    background-color: rgb(220, 212, 252);
+}
+.navigation-text{
+    padding-right: 20px;
+}
+.main-site-container{
+    display: flex;
+}
+.main-content{
+    width: 70%;
+    height: 100%;
+    padding: 0px 20px 20px 20px;
+}
+.saidbar{
+    width: 30%;
+    height: 100%;
+    padding: 0px 20px 20px 20px;
+}
+.advertisement{
+    border: 2px solid rgb(175, 175, 175);
+    margin-bottom: 15px;
+}
+.advertisement p{
+    padding: 0px 20px 0px 20px;
+}
+.advertisement h5{
+    padding-right: 25px;
+}
+.advertisement2{
+    border: 2px solid rgb(175, 175, 175);
+    margin-bottom: 15px;
+}
+.advertisement2 p{
+    padding: 0px 20px 0px 20px;
+}
+.advertisement2 h5{
+    padding-right: 25px;
+}
+.advertisement3{
+    border: 2px solid rgb(175, 175, 175);
+    margin-bottom: 15px;
+}
+.advertisement3 p{
+    padding: 0px 20px 0px 20px;
+}
+.advertisement3 h5{
+    padding-right: 25px;
+}
+.advertisement4{
+    display: flex;
+    border: 2px solid rgb(175, 175, 175);
+    margin-bottom: 15px;
+}
+.advertisement4 img{
+    padding: 17px 0px 0px 17px;
+}
+.advertisement5{
+    border: 2px solid rgb(175, 175, 175);
+    margin-bottom: 15px;
+}
+.advertisement5 p{
+    padding: 0px 20px 0px 20px;
+}
+.advertisement5 h5{
+    padding-right: 25px;
+}
+.news-content{
+    border: 2px solid rgb(175, 175, 175);
+    margin-bottom: 15px;
+}
+.work-schedule{
+    border: 2px solid rgb(175, 175, 175);
+    margin-bottom: 15px;
+    padding: 0px 10px 0px 10px;
+}
+.site-footer{
+    display: flex;
+}
+.official-name{
+    width: 45%;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+}
+.official-address{
+    width: 25%;
+    height: 100%;
+    padding: 0px 20px 0px 20px;
+    border-left: 2px solid rgb(175, 175, 175);
+    border-right: 2px solid rgb(175, 175, 175);
+}
+.img-ukraine-flag{
+    width: 30%;
+    height: 100%;
+    padding: 50px 10px 14px 75px;
+}
