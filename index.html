@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/javascript/languageSelect.js">
 </head>
 <body>
     <div class="container">
@@ -118,18 +119,5 @@
             </div>
         </div>
     </div>
-    
-    <script>
-        const select = document.getElementById('languageSelect');
-      
-        select.addEventListener('change', (event) => {
-          const selectedOption = event.target.value;
-          if (selectedOption === 'uk') {
-            window.location.href = 'index.html'; // перенаправление на страницу на украинском языке
-          } else if (selectedOption === 'en') {
-            window.location.href = 'en.html'; // перенаправление на страницу на английском языке
-          }
-        });
-      </script>
 </body>
 </html>
