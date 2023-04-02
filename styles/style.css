@@ -3,14 +3,35 @@ body{
     font-family: 'Noto Serif', serif;
     font-family: 'Rowdies', cursive;
 }
+.main-container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 740px;
+    min-height: 10px;
+}
+.main-navigation-container{
+    position: fixed;
+    top: 14px;
+    left: 39px;
+    background: #8ee4af;
+    border-radius: 17px;
+    padding: 6px;
+}
 .container{
     width: 960px;
     min-height: 10px;
-    margin: 0 auto;
     background: #8ee4af;
     border-radius: 17px;
     padding: 10px;
     margin-top: 14px;
+}
+.container-logo img{
+    width: 960px;
+    min-height: 10px;
+    border-radius: 17px;
+    padding: 10px;
+    margin-top: 14px;
+    background: #ffffff;
 }
 .header{
     display: flex;
@@ -59,14 +80,9 @@ body{
 }
 .main-navigation-text h2{
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     margin: 5px 0px 20px 0px;
-}
-.website-navigation-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .website-navigation-text a{
     text-decoration: none;
@@ -75,14 +91,15 @@ body{
     display: inline-block;
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #379683;
+    background-color: #35bba0;
     margin-bottom: 10px;
 }
 .website-navigation-text a:hover {
-    background-color: #5cdb95;
+    background-color: #00f3c2;
 }
 .navigation-text{
     padding-right: 20px;
+    padding-bottom: 0.9px;
 }
 .navigation-text a{
     font-size: 14px;
@@ -121,7 +138,7 @@ body{
 .main-content{
     width: 70%;
     height: 100%;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 5px 20px 20px;
 }
 .main-content h3{
     text-align: center;
@@ -235,8 +252,28 @@ body{
     border-left: 3px ridge #06640d;
     border-right: 3px ridge #06640d;
 }
-.img-ukraine-flag{
+.official-address p{
+    margin-bottom: 2px;
+}
+.official-address a{
+    text-decoration: none;
+    color: #000;
+}
+.official-address a:hover{
+    color: #000e90;
+}
+.contacts-info{
     width: 30%;
     height: 100%;
-    padding: 0px 10px 0px 85px;
+    padding: 0px 10px 0px 55px;
+}
+.contacts-info p{
+    margin-bottom: 2px;
+}
+.contacts-info a{
+    text-decoration: none;
+    color: #000;
+}
+.contacts-info a:hover{
+    color: #000e90;
 }
