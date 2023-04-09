@@ -560,8 +560,9 @@
         margin-bottom: 20px;
     }
     .advertisement4 img{
-        padding: 8px 0px 8px 17px;
-
+        padding: 12px 0px 12px 17px;
+        width: 260px;
+        height: 370px;
     }
     .advertisement4 h4{
         text-align: center;
