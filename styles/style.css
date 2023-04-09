@@ -1,4 +1,4 @@
-/* стилі для пристроїв с максимальною шириною екрану 1366px и менше */
+/* стилі для пристроїв с максимальною шириною екрану 1366px и менше (розширення мого монітора) */
 
 @media screen and (max-width: 1366px) {
     body{
@@ -327,11 +327,11 @@
     .main-container{
         display: flex;
         margin: 0 auto;
-        max-width: 940px;
+        max-width: 1020px;
         min-height: 10px;
     }
     .container{
-        width: 1250px;
+        width: 1350px;
         min-height: 10px;
         background-image: linear-gradient(to bottom, #ffffc5, #ff8181);
         border-radius: 17px;
@@ -339,7 +339,7 @@
         margin-top: 18px;
     }
     .container-logo img{
-        width: 1250px;
+        width: 1350px;
         min-height: 10px;
         border-radius: 17px;
         padding: 10px;
@@ -392,10 +392,10 @@
     .main-navigation-container{
         position: fixed;
         top: 18px;
-        left: 79px;
+        left: 97px;
         background-image: linear-gradient(to bottom, #ffffc5, #ff8181);
         border-radius: 17px;
-        padding: 6px;
+        padding: 12px;
     }
     .main-navigation-container h2{
         text-align: center;
@@ -407,7 +407,7 @@
         text-decoration: none;
         text-align: center;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 20px;
         color: #000000;
         display: inline-block;
         display: block;
@@ -446,7 +446,7 @@
         margin-bottom: 15px;
     }
     .news-content li{
-        font-size: 22px;
+        font-size: 24px;
         margin: 10px 0px 10px 10px;
     }
     .social_networks {
@@ -477,7 +477,7 @@
         padding: 0px 10px 0px 10px;
     }
     .work-schedule p{
-        font-size: 22px;
+        font-size: 24px;
         margin: 10px 0px 10px 10px;
     }
     .main-content{
@@ -499,13 +499,13 @@
     }
     .advertisement h4{
         text-align: center;
-        font-size: 22px;
+        font-size: 23px;
         font-weight: bold;
         margin: 10px 0px 10px 0px;
     }
     .advertisement p{
         text-align: center;
-        font-size: 21px;
+        font-size: 23px;
         padding: 0px 20px 0px 20px;
         margin: 10px 0px 10px 0px;
     }
@@ -517,13 +517,13 @@
     }
     .advertisement2 h4{
         text-align: center;
-        font-size: 22px;
+        font-size: 23px;
         font-weight: bold;
         margin: 10px 0px 10px 0px;
     }
     .advertisement2 p{
         text-align: center;
-        font-size: 21px;
+        font-size: 23px;
         padding: 0px 20px 0px 20px;
         margin: 10px 0px 10px 0px;
     }
@@ -535,20 +535,20 @@
     }
     .advertisement3 h4{
         text-align: center;
-        font-size: 22px;
+        font-size: 23px;
         font-weight: bold;
         margin: 10px 0px 10px 0px;
     }
     .advertisement3 h5{
         text-align: right;
-        font-size: 21px;
+        font-size: 23px;
         font-weight: bold;
         margin: 10px 0px 10px 0px;
         padding-right: 25px;
     }
     .advertisement3 p{
         text-align: center;
-        font-size: 21px;
+        font-size: 23px;
         padding: 0px 20px 0px 20px;
         margin: 10px 0px 10px 0px;
     }
@@ -566,13 +566,13 @@
     }
     .advertisement4 h4{
         text-align: center;
-        font-size: 22px;
+        font-size: 23px;
         font-weight: bold;
         margin: 10px 0px 10px 0px;
     }
     .advertisement4 p{
         text-align: center;
-        font-size: 21px;
+        font-size: 23px;
         padding: 0px 20px 0px 20px;
         margin: 10px 0px 10px 0px;
     }
@@ -584,13 +584,13 @@
     }
     .advertisement5 h4{
         text-align: center;
-        font-size: 22px;
+        font-size: 23px;
         font-weight: bold;
         margin: 10px 0px 10px 0px;
     }
     .advertisement5 p{
         text-align: center;
-        font-size: 21px;
+        font-size: 23px;
         padding: 0px 20px 0px 20px;
         margin: 10px 0px 10px 0px;
     }
@@ -603,7 +603,7 @@
         padding: 0px 10px 0px 10px;
     }
     .official-name p{
-        font-size: 21px;
+        font-size: 22px;
     }
     .official-address{
         width: 25%;
@@ -614,7 +614,7 @@
     }
     .official-address p{
         margin-bottom: 4px;
-        font-size: 21px;
+        font-size: 22px;
     }
     .official-address a{
         text-decoration: none;
@@ -630,7 +630,7 @@
     }
     .contacts-info p{
         margin-bottom: 2px;
-        font-size: 21px;
+        font-size: 22px;
     }
     .contacts-info a{
         text-decoration: none;
