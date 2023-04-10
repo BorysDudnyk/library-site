@@ -5,6 +5,18 @@ body{
     background: #7b009d;
     font-family: 'Rowdies', cursive;
     }
+    body::-webkit-scrollbar {
+        width: 12px;
+    }
+    body::-webkit-scrollbar-track {
+        -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+        background-color: #f9f9fd;
+        border-radius: 10px;
+    }
+    body::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: linear-gradient(180deg, #d981ff, #fa00ed);
+    }
     .main-container{
         display: flex;
         margin: 0 auto;
@@ -324,8 +336,20 @@ body{
 
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
     body{
-    background: #7b009d;
-    font-family: 'Rowdies', cursive;
+        background: #7b009d;
+        font-family: 'Rowdies', cursive;
+    }
+    body::-webkit-scrollbar {
+        width: 12px;
+    }
+    body::-webkit-scrollbar-track {
+        -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+        background-color: #f9f9fd;
+        border-radius: 10px;
+    }
+    body::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: linear-gradient(180deg, #d981ff, #fa00ed);
     }
     .main-container{
         display: flex;
@@ -646,6 +670,18 @@ body{
         background: #7b009d;
         font-family: 'Rowdies', cursive;
     }
+    body::-webkit-scrollbar {
+        width: 12px;
+    }
+    body::-webkit-scrollbar-track {
+        -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+        background-color: #f9f9fd;
+        border-radius: 10px;
+    }
+    body::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: linear-gradient(180deg, #d981ff, #fa00ed);
+    }
     .main-container{
         display: flex;
         margin: 0 auto;
@@ -965,6 +1001,18 @@ body{
     body{
     background: #7b009d;
     font-family: 'Rowdies', cursive;
+    }
+    body::-webkit-scrollbar {
+        width: 12px;
+    }
+    body::-webkit-scrollbar-track {
+        -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+        background-color: #f9f9fd;
+        border-radius: 10px;
+    }
+    body::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: linear-gradient(180deg, #d981ff, #fa00ed);
     }
     .main-container{
         display: flex;
