@@ -255,7 +255,7 @@ body::-webkit-scrollbar-thumb {
     margin: 6px 0px 6px 0px;
     color: rgb(243, 225, 225);
 }
-.advertisement, .advertisement1, .advertisement2 {
+.advertisement, .advertisement2, .advertisement3 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: 4px solid #9354b7;
     border-radius: 15px;
@@ -264,7 +264,7 @@ body::-webkit-scrollbar-thumb {
 .advertisement-display, .advertisement-img-library-1987, .new_building_of_the_library{
     display: flex;
 }
-.advertisement p, .advertisement1 p, .advertisement2 p {
+.advertisement p, .advertisement2 p, .advertisement3 p {
     font-size: 16px;
     padding: 0px 20px 0px 20px;
     margin: 6px 0px 6px 0px;
